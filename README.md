@@ -9,11 +9,12 @@ The model is pre-trained on the SQUAD dataset (Stanford Question Answering Datas
 
 We will use a QA (Question answering) model and serve it using FastAPI and we'll try a tool to query our API using curl requests (postman).
 
-![Lab - Model testing](Screens/FastAPI_QA.png)
+![Lab - Model testing](Lab%20-%20Model%20testing/Screens/FastAPI_QA.png)
 
-![Lab - Model testing](Screens/FastAPI_QA_Response.png)
+![Lab - Model testing](Lab%20-%20Model%20testing/Screens/FastAPI_QA_Response.png)
 
-![Lab - Model testing](Screens/FastAPI_QA_postman.png)
+![Lab - Model testing](Lab%20-%20Model%20testing/Screens/FastAPI_QA_postman.png)
+
 
 ## Part 2: Containerizing the API using Docker
 To save time in production and facilitate the deployment process, it is essential to use Docker.
