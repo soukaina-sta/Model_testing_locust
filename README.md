@@ -9,7 +9,7 @@ The model is pre-trained on the SQUAD dataset (Stanford Question Answering Datas
 
 We will use a QA (Question answering) model and serve it using FastAPI and we'll try a tool to query our API using curl requests (postman).
 
-![Lab - Model testing](Screens/FastAPI_QA.png)
+![Lab - Model testing](Lab - Model testing/Screens/FastAPI_QA.png)
 
 ![Lab - Model testing](Screens/FastAPI_QA_Response.png)
 
