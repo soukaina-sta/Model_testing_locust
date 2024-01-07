@@ -9,16 +9,16 @@ The model is pre-trained on the SQUAD dataset (Stanford Question Answering Datas
 
 We will use a QA (Question answering) model and serve it using FastAPI and we'll try a tool to query our API using curl requests (postman).
 
-![Model_testing_locust](Screens/FastAPI_QA.png)
+![Lab - Model testing](Screens/FastAPI_QA.png)
 
-![Model_testing_locust](Screens/FastAPI_QA_Response.png)
+![Lab - Model testing](Screens/FastAPI_QA_Response.png)
 
-![Model_testing_locust](Screens/FastAPI_QA_postman.png)
+![Lab - Model testing](Screens/FastAPI_QA_postman.png)
 
 ## Part 2: Containerizing the API using Docker
 To save time in production and facilitate the deployment process, it is essential to use Docker.
 
-![Model_testing_locust](Screens/FastAPI_Docker.png)
+![Lab - Model testing](Screens/FastAPI_Docker.png)
 
 ## Part 3: Serving a Transformer Model using TFX
 TFX provides a faster and more efficient way to serve deep learning models. But it has some 
@@ -31,5 +31,5 @@ We will use it to test the loading of the three methods seen previously:
 - Using Dockerized fastAPI and 
 - By serving the model with TFX using fastAP
 
-![Model_testing_locust](Screens/locust_fastapi_QA.png)
-![Model_testing_locust](Screens/results_locust.png)
+![Lab - Model testing](Screens/locust_fastapi_QA.png)
+![Lab - Model testing](Screens/results_locust.png)
